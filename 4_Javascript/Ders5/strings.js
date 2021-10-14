@@ -1,39 +1,67 @@
-// //////SPLIT METHOD//////
-// var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
-// // console.log(s.split(" ")); kelime kelime ayırır.
-// // console.log(s.split); eleman eleman ayırır. 
-// // console.log(s.split("e")); e harfini çıkartıp her biri için , koyarak array elemanı yapar. 
-// // console.log(s.split()); stringi array e çevirir. 
+// // // var num = prompt ("please enter a number");
+// // // if (num > 0) {alert("you entered a positive number.")}else if (num < 0 ) {console.log("you entered a negative number.")}else { "you entered zero."}
+// // // var i = 9;
+// // // var sum = 0;
+// // // while (i < 13){sum = sum + i ; i ++;}
+// // // console.log("The sum is:" + sum);
+// // // var i = 0;
+// // // var mult=5;
+// // // while (i < 3) {
+// // // var mult = mult * i;
+// // // i++;
+// // // }
+// // // console.log ("The answer is: " + mult);
+// // var i = 0;
+// // while (i < 10) {
+// //  if (i > 5) {
+// //  break;
+// //  }
+// //  i = i + 1;
+// // }
+// // // console.log(i);
+// // var players = ["Messi ", "Ronaldo ", "Hazard ", "Neymar ", "Salah "];
+// // var text = "";
+// // var i;  
+// // for (i = 2; i < players.length; i++) {
+// // text += players[i];
+// // }
+// // // console.log(text)
+// // var pangram = "pijamalı hasta yağız şoföre çabucak güvendi."
+// // console.log(pangram.toUpperCase());
+// // console.log(pangram.toLowerCase());
+// // console.log(Pangram.toLocaleLowerCase('tr'));
+// // var test = prompt("write anything").toLowerCase()
+// // console.log(test);
 
-// /&///////////////////
-// // https://www.youtube.com/watch?v=b7vfp5G4brE
-// // https://youtu.be/b7vfp5G4brE
-// var youtube = "https://www.youtube.com/watch?v=b7vfp5G4brE"
-// var arr = youtube.split('=')
-// console.log(arr[1]);
-// var shortLink = `https://youtu.be/${arr[1]}`
-// console.log(shortLink);
+
+
+// ////////splice()//////
+
+// // var names = ["jam", "ara", "awl","34","fd","gsg"];
+// // names.splice(1,-2, "a","d","s")
+// // console.log(names);
+
+// ////////slice()//////
+// const months = ["jan", "march", "april", "june", "july"];
+// const springs = months.slice(1,3);
+// const springsnegative = months.slice(-4,-2);
+
+// console.log(springsnegative);
+// console.log(springs);
+// console.log(months);
+
+
+// ////////iterate methods//////
+// const colors = ["Red", "Yellow", "Green", "Blue", "Pink","Purple","Gray","lime"];
+// // 1. for
+// for (let i = 0; i < colors.length;i++){
+//     console.log(colors[i])
+//   }
+
+////////2. for//////
+for (i in colors) console.log(colors(i));
 
 
 
-//////////SUBSTR METHOD//////
-// console.log(s.substr(22,10));  negatif index kullanımı yoktur. yazıldığında 0 kabul eder.
-
-// var check = s.substr(22,10) === s.subtring(22,32)
-
-/////////LOWERCASE UPOPERCASE/////
-// var pangram = "pijamalı hasta yağız şoföre çabucak güvendi."
-// console.log(pangram.toUpperCase());
-// console.log(pangram.toLowerCase());
-// console.log(Pangram.toLocaleLowerCase('tr'));
-// var test = prompt("write anything").toLowerCase()
-// console.log(test);
 
 
-//////////trim()//////
-
-
-//////Sort/////
-// const points = [40, 100, 1, 5, 25, 10];
-// console.log(points.sort());
-// console.log(points.sort(function(a, b){return a - b}));

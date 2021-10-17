@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+</head>
+<body>
+    <div>
+        <h1 class="checkout"> Checkout</h1>
+    </div>
+    <main>
+        <form action="aaa">
+    <div class="titles">
+        <h2 class="contactinformation">Contact Information</h2>
+    </div>
+    <div class="Sections">
+        <label for="email">Email:</label> <br>
+        <input type="email" name="Email" id="email" placeholder="Enter your Email..." required style>
+        <i class="far fa-envelope"></i>  
+    </div>
+    <div class="Sections>
+       <label for="tel">Phone</label><br>
+       <input type="tel" name="telephone" id="tel" placeholder="Enter your phone" required>
+       <i class="fas fa-phone"></i>
+    </div>
+
+    <div class="titles>
+        <h2 class="shippingaddress">shipping address</h2>
+    </div>
+    <div class="Sections>
+        <label for="fullname">Full Name</label><br>
+        <input type="text" name="fullname" id="fullname" placeholder="Enter your full name" required>
+        <i class="fas fa-user-alt"></i>
+    </div>
+    <div class="Sections>
+      <label for="address">Address</label> <br>
+        <input type="text" name="address" id="address" placeholder="Enter your address" required>
+        <i class="fas fa-home"></i>
+    </div>
+    <div class="Sections>
+      <label for="city">City</label> <br>
+        <input type="text" name="city" id="city" placeholder="Enter your city" required>
+        <i class="fas fa-city"></i>
+    </div>
+    <div class="country">
+        <label for="country">Country</label>
+        <label for="postcode">Post Code</label><br>
+        <select name="country" id="country">Country
+            <option value="Turkey">Turkey</option>
+            <option value="Germany">Germany</option>
+            <option value="Netherland" selected>Netherland</option>
+        </select>
+        <i class="fas fa-globe-americas"></i>
+        
+        <input type="text" name="postcode" id="postcode">
+        <i class="fas fa-mail-bulk"></i>     
+    </div>
+    <div>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">See this information next time</label>
+    </div>
+</form>
+    <div id="product-painel">
+        <div class="product">
+            <img src="./img/photo1.png" alt="Vintage Backbag">
+            <div class="product-info">
+                <h2>Vintage Backbag</h2>
+                <p> <strong>$54.99</strong> <span class="line-through ">$94.99</span> </p>
+                <div class="quantity-controller">
+                    <button class="quantity-controller--button"> <i class="fas fa-minus"></i></button>
+                    <p>1</p>
+                    <button class="quantity-controller--button"> <i class="fas fa-plus"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="./img/photo2.png" alt="Levi Shoes">
+            <div class="product-info">
+                <h2>Levi Shoes</h2>
+                <p><strong>$74.99</strong> <span class="line-through ">$124.99</span>  </p>
+                <div class="quantity-controller">
+                    <button class="quantity-controller--button"> <i class="fas fa-minus"></i></button>
+                    <p>1</p>
+                    <button class="quantity-controller--button"><i class="fas fa-plus"></i> </button>
+                </div>
+            </div>
+        </div>
+        <div class="price">
+        <div id="shipping" class="buy-detail">
+            <p>Shipping</p>
+            <p>$19</p>
+        </div>
+        <div id="total" class="buy-detail">
+            <p>Total</p>
+            <p>$148.98</p>
+        </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <input type="submit" value="Continue">
+    </footer>
+</main>
+</body>
+</html>

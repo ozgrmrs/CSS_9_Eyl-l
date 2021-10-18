@@ -56,11 +56,11 @@ console.log(headerDiv);
 let logo = document.createElement("img");
 logo.setAttribute("src", "img/logo.png");
 logo.setAttribute("class", "headerLogo");
-// logo.style.width = "50px";
-// logo.style.height = "50px";
-// logo.className = "headerLogo";
-// logo.classList.add("headerClass");
-// logo.classList.remove("headerClass");
+logo.style.width = "50px";
+logo.style.height = "50px";
+logo.className = "headerLogo";
+logo.classList.add("headerClass");
+logo.classList.remove("headerClass");
 console.log(logo.classList);
 
 // console.log(logo);

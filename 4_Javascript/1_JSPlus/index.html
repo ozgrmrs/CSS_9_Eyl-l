@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.js">
+    <title>Ders1</title>
+</head>
+<body>
+    <h1> JS Plus</h1>
+    <script>
+        const len = parseInt(prompt("Please enter the number of array: "))
+function fibonacci(len){
+    let result = [];
+    var n1 = 0;
+    var n2 = 1;
+    var nextnum ;    
+    for(i=0; i<len; i++){
+        result.push(n1)
+        nextnum = n1 + n2
+        n1 = n2;
+        n2 = nextnum;
+    }
+    console.log(result);  
+}
+
+fibonacci(len)
+    </script>
+    
+</body>
+</html>

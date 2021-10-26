@@ -5,29 +5,29 @@
 // // console.log(c);
 
 
-////////////FIBONACCI///////
+//////////FIBONACCI///////
 
-// let fibonacciNumber = prompt("Please enter a number:");
-//         let num1 = 0;
-//         let num2 = 1;
-//         let sum ;
-//         let fibonacciNumbers = [];
-//         for(let i = 1; i < fibonacciNumber; i++){
-//         sum = num1 + num2;
-//         num1 = num2;
-//         num2 = sum;
-//         fibonacciNumbers.push(sum);
-//  }
-// console.log(fibonacciNumbers);
+let fibonacciNumber = prompt("Please enter a number:");
+        let num1 = 0;
+        let num2 = 1;
+        let sum ;
+        let fibonacciNumbers = [];
+        for(let i = 1; i < fibonacciNumber; i++){
+        sum = num1 + num2;
+        num1 = num2;
+        num2 = sum;
+        fibonacciNumbers.push(sum);
+ }
+console.log(fibonacciNumbers);
 
 
-//////////REVERSE STRING////////////
+////////REVERSE STRING////////////
 let sentence = prompt("enter a sentence or word:");
 console.log(sentence);
 function reverse (sentence1){
-    var splitString = sentence1.split("");
-    var reverseArray = splitString.reverse();
-    var joinArray = reverseArray.join("");
+    let splitString = sentence1.split("");
+    let reverseArray = splitString.reverse();
+    let joinArray = reverseArray.join("");
     return joinArray; 
 }
 console.log(reverse(sentence));

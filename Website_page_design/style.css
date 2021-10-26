@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    display: block;
+    background-color: black;
+    padding: 20px;
+
+    
+}
+.CWD{
+    display: inline;
+    background-color: black;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(169, 80, 139);
+}
+.links{
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+   
+#design{
+    padding: 0 1000px 0 0;
+    color: white;
+}
+#home{
+    color: #a9508b;
+}
